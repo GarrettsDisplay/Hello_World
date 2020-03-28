@@ -1,0 +1,44 @@
+# just practicing lists again.
+#it's going to take me awhile to learn programming but i am ok with that.
+
+In [148]: guest = ['elon' , 'garrett' , 'steve']                                                                            
+
+In [149]: print("elon can't make the dinner")                                                                               
+elon can't make the dinner
+
+In [150]: guest.remove('elon')                                                                                              
+
+In [151]: print(guest)                                                                                                      
+['garrett', 'steve']
+
+In [152]: guest.insert(0, 'jimmy')                                                                                          
+
+In [153]: print(guest)                                                                                                      
+['jimmy', 'garrett', 'steve']
+
+In [154]: guest.insert(2, 'korg')                                                                                           
+
+In [155]: print(guest)                                                                                                      
+['jimmy', 'garrett', 'korg', 'steve']
+
+In [156]: guest.insert(0, 'I need some money')                                                                              
+
+In [157]: print(guest)                                                                                                      
+['I need some money', 'jimmy', 'garrett', 'korg', 'steve']
+
+In [158]: print('Hi ' + guest[3] + ' you are invited to heaven')                                                            
+Hi korg you are invited to heaven
+
+In [159]: print('Hi' + guest[4] + ' you are going to make apple')                                                           
+Histeve you are going to make apple
+
+In [160]: print('Hi ' + guest[4] + ' you will make apple')                                                                  
+Hi steve you will make apple
+
+In [161]: print('Hi ' + guest[0] + ' and i need it fast')                                                                   
+Hi I need some money and i need it fast
+
+In [162]: print('HELLO THERE ' + guest[3] + ' likes fortnight')                                                             
+HELLO THERE korg likes fortnight
+
+In [163]:                                                                                                                   
